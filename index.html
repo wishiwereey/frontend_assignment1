@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <style>
+        h2{
+            color:rgb(229, 224, 198); 
+            border-inline: 4px solid rgb(229, 224, 198); 
+            padding-left: 120px; 
+            padding-right: 120px; 
+            width: fit-content; 
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h3{
+            color:darkslategrey;
+            text-decoration: underline;
+        }
+        label{
+            background-color: rgb(120, 138, 138);
+            color:rgb(239, 236, 233);
+            border-radius: 6%;
+            font-style: italic;
+            font-weight: 400;
+        }
+    </style>
+</head>
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+<div id="header">
+<h1 id="main-heading">Web-Technologies 1</h1>
+<h2>Zhasmira Mamyrbayeva</h2>
+</div>
+<div id="main">
+<div class="about">
+<img src="my_photo.jpg" alt="My photo" class="about_img">
+    <div class="about-text">
+        <h3 id="about">About Me</h3>
+        <p>Welcome to my first website! My name is Zhasmira
+            and I am 18 years old. I am a second year student
+            in Astana IT University.
+            <br> I graduated from school with honors and am trying very hard to study diligently at university.
+        </p>
+    </div>
+</div>   
+<h3>My hobbies</h3>
+<ol>
+    <li>Dancing</li>
+    <li>Watching films</li>
+    <li>Spending time with my friends and family</li>
+    <li >Listening to music</li>
+</ol>
+<div class="left-box">
+    <h3>My favorite websites</h3>
+    <ul>
+        <li>Kinogo</li>
+        <li>Canva</li>
+        <li>Pinterest</li>
+    </ul>
+</div>
+<div class="right-box">
+    <h3>Links to my favorite websites</h3>
+    <a href="https://www.canva.com/" target="_blank">Canva</a> 
+    <br> <a href="https://www.pinterest.com/" target="_blank">Pinterest</a>
+    <br> <button type="button">Click Me</button>
+</div>
+<div class="clear"></div>
+<h3 id="schedule">Weekly class schedule</h3>
+<table border="1" id="stat">
+    <tr id="n">
+        <th>Subject</th>
+        <th>Day</th>
+        <th>Time</th>
+    </tr>
+    <tr class="highlight">
+        <th>Design and Analysis of Algorithms</th>
+        <th>Monday</th>
+        <th>18:00-19:50</th>
+    </tr>
+    <tr class="highlight">
+        <th>Design and Analysis of Algorithms</th>
+        <th>Tuesday</th>
+        <th>14:00-15:50</th>
+    </tr>
+    <tr class="highlight">
+        <th>Russian Language</th>
+        <th>Tuesday</th>
+        <th>16:00-17:50</th>
+    </tr>
+    <tr class="highlight">
+        <th>Software Design Patterns</th>
+        <th>Wednesday</th>
+        <th>17:00-19:50</th>
+    </tr>
+    <tr class="highlight">
+        <th>Design and Analysis of Algorithms</th>
+        <th>Thursday</th>
+        <th>14:00-14:50</th>
+    </tr>
+    <tr class="highlight">
+        <th>Operating Systems</th>
+        <th>Thursday</th>
+        <th>18:00-19:50</th>
+    </tr>
+    <tr class="highlight">
+        <th>Web Technologies-1</th>
+        <th>Monday</th>
+        <th>15:00-17:50</th>
+    </tr>
+</table>
+<h3>My mood today</h3>
+<p id="relat" style="color:rgb(83, 50, 12)">I'm in a really good mood today&#128512;. I woke up early and managed to finish all my tasks&#129395;&#128079;.
+    <br>Also I have met with my friends and we have seen a great movie together&#128525;. </p>
+<h3>Menu</h3>
+    <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#schedule">Weekly Class Schedule</a></li>
+        <li><a href="#form">Contact Form</a></li>
+    </ul>
+<h3 id="form">Contact Form</h3>
+<form action="#" method="post">
+<label for="name"> Name </label>
+<br> <input type="text" id="name" name="name" placeholder="Enter your name" required>
+<br><br> <label for="email"> Email </label>
+<br> <input type="email" id="email" name="email" placeholder="Enter your email" required>
+<br><br> <label for="color"> Favorite color </label>
+<br> <input type="color" id="color" name="color" value="#ff0000">
+<br><br> <button type="submit">Submit</button>
+</form>
+</div>
+<p id="abs">Thank you!</p>
+<div id="footer">
+    <p>© 2026 Zhasmira Mamyrbayeva
+        <br><br>Contacts
+    <br> <a href="https://www.instagram.com/wishiwereey/?hl=ru" target="_blank" style="color: inherit;">Instagram</a>
+    <br>Email: zhasmira.mamyrbayeva2007@gmail.com</p>
+</div>
+</body>
+</html>
